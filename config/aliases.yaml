@@ -1,0 +1,17 @@
+# Spoken name: installed Start menu name. Matching already ignores spaces and case.
+# Run `voicebar apps` to see exact installed names, then add your own.
+browser: Google Chrome
+chrome: Google Chrome
+edge: Microsoft Edge
+word: Word
+excel: Excel
+power point: PowerPoint
+code: Visual Studio Code
+vs code: Visual Studio Code
+note pad: Notepad
+calculator: Calculator
+terminal: Terminal
+explorer: File Explorer
+file explorer: File Explorer
+paint: Paint
+snipping tool: Snipping Tool

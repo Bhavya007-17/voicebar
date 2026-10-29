@@ -1,0 +1,14 @@
+app: Google Chrome
+actions:
+  new_window:
+    say: [new window, new browser window]
+    do:
+      - keys: ctrl+n
+  new_incognito_window:
+    say: [new incognito window, new private window]
+    do:
+      - keys: ctrl+shift+n
+  tab_search:
+    say: [search tabs, open tab search]
+    do:
+      - keys: ctrl+shift+a

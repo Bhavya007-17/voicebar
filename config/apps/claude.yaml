@@ -1,0 +1,17 @@
+app: Claude
+actions:
+  new_chat:
+    say: [new chat, start a new chat]
+    do:
+      - keys: ctrl+n
+      - wait: {name: New session - Claude, role: document, timeout: 3}
+  focus_message_box:
+    say: [focus the message box, focus message box]
+    do:
+      - click: {name: Write your prompt to Claude, role: edit}
+  start_voice_input:
+    say: [start voice input, start voice mode, start voice dictate mode]
+    do:
+      - click: {name: Dictate, role: button}
+      - wait: {name: Finish dictation, role: button, timeout: 3}
+    then: sleep

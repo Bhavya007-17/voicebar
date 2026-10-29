@@ -1,0 +1,17 @@
+app: Autodesk Fusion
+actions:
+  new_design:
+    say:
+      - new design
+    do:
+      - mcp: {command: new_design}
+  create_sketch:
+    say:
+      - create sketch
+    do:
+      - mcp: {command: create_sketch}
+  fit_view:
+    say:
+      - fit view
+    do:
+      - mcp: {command: fit_view}

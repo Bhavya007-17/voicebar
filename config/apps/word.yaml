@@ -1,0 +1,10 @@
+app: Word
+actions:
+  new_document:
+    say: [new blank document, new document]
+    do:
+      - keys: alt+f
+      - wait: {automation_id: msotcidPlaceOfficeStart, timeout: 3}
+      - keys: n
+      - wait: {name: Blank document, automation_id: AIOStartDocument, timeout: 3}
+      - keys: l

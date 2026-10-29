@@ -1,0 +1,8 @@
+* text=auto
+AGENTS.md text eol=lf
+CLAUDE.md text eol=lf
+seed/** -text
+docs/evidence/experiment-source/** -text
+tests/test_parser_contract.py -text
+tests/test_gate_contract.py -text
+voicebar/gate.py -text

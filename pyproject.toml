@@ -1,0 +1,59 @@
+[project]
+name = "voicebar"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "comtypes==1.4.17 ; sys_platform == 'win32'",
+    "huggingface-hub>=1.0,<2",
+    "moonshine-voice==0.1.5",
+    "numpy>=2.5.3",
+    "onnx-asr==0.12.0",
+    "onnxruntime==1.31.0",
+    "pyside6==6.12.0",
+    "pyyaml>=6.0.3",
+    "rapidfuzz>=3.14.6",
+    "sounddevice==0.5.3",
+    "torch==2.9.1+cu128 ; sys_platform == 'win32'",
+    "transformers==5.19.0 ; sys_platform == 'win32'",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.21,<0.12.0"]
+build-backend = "uv_build"
+
+[project.scripts]
+voicebar = "voicebar.cli:main"
+
+[tool.uv.build-backend]
+module-root = ""
+
+[tool.uv]
+# Keep Qwen's newly introduced transitive packages at their measured versions.
+constraint-dependencies = [
+    "markupsafe==3.0.3",
+    "networkx==3.6.1",
+    "setuptools==78.1.0",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch" }
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = ["seed", ".venv"]
+
+[tool.ruff]
+target-version = "py312"
+extend-exclude = ["seed"]
+
+[dependency-groups]
+dev = [
+    "psutil>=7.2.2",
+    "pytest>=9.1.1",
+    "ruff>=0.16.10",
+]

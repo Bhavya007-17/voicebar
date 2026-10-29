@@ -1,0 +1,65 @@
+name: computer
+names:
+  - computer
+mode: name
+stt:
+  backend: qwen  # accepted Stage 3 runtime; Stage 4 adds gated listening
+  device: cuda
+ptt:
+  hotkey: ctrl+alt+f8
+ui:
+  style: pill
+  monitor: primary  # or exact Windows display name, e.g. \\.\DISPLAY1
+  dwell_ms: 450
+  idle_ms: 4000
+  toggle_listening: ctrl+alt+f9
+  copilot_key: true  # physical Left-Shift + Windows + F23 toggles the microphone
+  toggle_bar: ctrl+alt+f10
+  hold_to_talk: ctrl+alt+f8
+  execution_timeout_seconds: 10
+followup_seconds: 8
+conversation:
+  enabled: true
+  silence_seconds: 120
+  continuation_seconds: 4
+vision:
+  enabled: true
+  model: qwen3-vl:2b-instruct
+  timeout_ms: 5000
+audio:
+  silence_seconds: 0.30  # preserve the measured fixed endpoint until the adaptive gate passes
+  short_silence_seconds: 0.25
+  adaptive_endpoint: false  # preview redecoding is measured before enabling it
+logs:
+  max_file_bytes: 2097152
+  max_total_bytes: 67108864
+  keep_transcripts: true
+resolver:
+  backend: ollama
+  model: qwen2.5:3b  # passed the Stage 6 benchmark
+  candidates:
+    - qwen2.5:3b
+    - gemma3:1b
+    - qwen2.5:0.5b
+    - qwen2.5:1.5b
+    - qwen3:1.7b
+  timeout_ms: 1500
+  port: 11434  # client host is fixed to 127.0.0.1
+executor:
+  window_timeout_seconds: 30
+  clipboard_threshold: 256
+  new_window_apps:
+    - Google Chrome
+    - Microsoft Edge
+    - File Explorer
+    - Notepad
+  browser_apps:
+    - Google Chrome
+    - Microsoft Edge
+  window_executables:
+    Autodesk Fusion:
+      - %USERPROFILE%\AppData\Local\Autodesk\webdeploy\production\a3178fba258560f2be8927680f8ed2f60c752700\Fusion360.exe
+engines:
+  google: https://www.google.com/search?q={q}
+  youtube: https://www.youtube.com/results?search_query={q}
+  github: https://github.com/search?q={q}

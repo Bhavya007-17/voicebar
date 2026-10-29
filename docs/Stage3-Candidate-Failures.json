@@ -1,0 +1,2913 @@
+{
+  "scope": "Only the three completed full-40 GPU candidate runs. CPU partial runs are excluded; earlier engines and synthetic cohorts are outside this consolidation.",
+  "session": "20261010T165301Z-check-0ffa4a3f",
+  "cohort_annotation": "User described the corrected-cue 40-command recording set as usual background noise. Original manifest labels are not rewritten.",
+  "cohort_identity_matches_across_engines": true,
+  "cohort_identity": [
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p001",
+      "wav_sha256": "77978c3ca71e0ea4f2448418bea148b985a61d45bd3a162cb4dfba67cdb678e1",
+      "expected_plan": [
+        {
+          "action": "open_app",
+          "app": "Google Chrome"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p002",
+      "wav_sha256": "b23ba0963631a7cd8437d0f8e40cc25ff537d9a372f578fdbefbdacc429bfbab",
+      "expected_plan": [
+        {
+          "action": "open_app",
+          "app": "Claude"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p003",
+      "wav_sha256": "00f6f14013d51668712d6d42e9b9d9e4bf89eb3ee4c5fe899cfff352d6420097",
+      "expected_plan": [
+        {
+          "action": "open_app",
+          "app": "Autodesk Fusion"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p004",
+      "wav_sha256": "f373f9b073c63bac68857509ab81d4652bebf617043e59b792a13b2d393eb710",
+      "expected_plan": [
+        {
+          "action": "open_app",
+          "app": "Word"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p005",
+      "wav_sha256": "c6ae081bddf9dbc64a14a7907ef6d99e78b886c172a32c6d51a8f54d2376621e",
+      "expected_plan": [
+        {
+          "action": "open_app",
+          "app": "Calculator"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p006",
+      "wav_sha256": "b23117c65e59f1fd62dabfe78fe7a3196fc5fbab08bb49f43b9c5be629b32b5f",
+      "expected_plan": [
+        {
+          "action": "open_app",
+          "app": "Visual Studio Code"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p007",
+      "wav_sha256": "a9e69df73d49bd77bab7b0d20af45fa731c5348b4f06c9a38510b0435f2476d8",
+      "expected_plan": [
+        {
+          "action": "open_app",
+          "app": "Notepad"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p008",
+      "wav_sha256": "60c1c61d67d22a4c364dc5bf2055a991d718fc892e9606fe12860a1557773150",
+      "expected_plan": [
+        {
+          "action": "switch_app",
+          "app": "Google Chrome"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p009",
+      "wav_sha256": "610013e104c097c859bfc55ab1c2870bf298efc94e33798417f94dc2de1ea3de",
+      "expected_plan": [
+        {
+          "action": "switch_app",
+          "app": "Claude"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p010",
+      "wav_sha256": "ff771b94fc3e8763f63be933e3980361473c05ee461e5a4bcbc930c6e5b281ff",
+      "expected_plan": [
+        {
+          "action": "close_app",
+          "app": "Claude"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p011",
+      "wav_sha256": "c3c7e60ee17ed860d1dcb7984ce3225eb5526925c7d595df1d59cc4381beac57",
+      "expected_plan": [
+        {
+          "action": "close_app",
+          "app": "Claude"
+        },
+        {
+          "action": "close_app",
+          "app": "Google Chrome"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p012",
+      "wav_sha256": "b92a42c292b1589f67c2b9aaabed79e27b8be20d6994d211614167e9f273549a",
+      "expected_plan": [
+        {
+          "action": "open_url",
+          "url": "https://www.google.com"
+        },
+        {
+          "action": "open_app",
+          "app": "Google Chrome"
+        },
+        {
+          "action": "open_app",
+          "app": "Autodesk Fusion"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p013",
+      "wav_sha256": "68b015c8c24d89794878001d6df6760fc2c645e3c652eca597d788ef2c0faf05",
+      "expected_plan": [
+        {
+          "action": "open_app",
+          "app": "Word"
+        },
+        {
+          "action": "open_app",
+          "app": "Excel"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p014",
+      "wav_sha256": "726ddd36de865f51bd8ed492411be735ebd454a2d6be33661472dcaaa8e71cdc",
+      "expected_plan": [
+        {
+          "action": "open_app",
+          "app": "Autodesk Fusion"
+        },
+        {
+          "action": "open_app",
+          "app": "Autodesk Fusion"
+        },
+        {
+          "action": "window",
+          "op": "maximize",
+          "target": "Autodesk Fusion"
+        },
+        {
+          "action": "window",
+          "monitor": "next",
+          "op": "move_monitor",
+          "target": "Autodesk Fusion"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p015",
+      "wav_sha256": "0b357285a0eba4e783eba89133cf1e279b522c1a9782692bd7372d6e5593b8d7",
+      "expected_plan": [
+        {
+          "action": "open_app",
+          "app": "Notepad"
+        },
+        {
+          "action": "type_text",
+          "submit": false,
+          "text": "meeting at 3 pm, bring the laptop"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p016",
+      "wav_sha256": "ab58e80b8afe0862ee2b27c16a164566c2070a01df863cf6e12af7a41015e44d",
+      "expected_plan": [
+        {
+          "action": "window",
+          "op": "minimize",
+          "target": "Google Chrome"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p017",
+      "wav_sha256": "c53bdd1855d1f079f8d7c176813c71851b689b4f8f39f89bf21a9172f834d053",
+      "expected_plan": [
+        {
+          "action": "window",
+          "op": "restore",
+          "target": "active"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p018",
+      "wav_sha256": "aed95f9e0e5c8b6e25df4718d92c6b7621de70699df02ff82d4200a39e292eb6",
+      "expected_plan": [
+        {
+          "action": "window",
+          "monitor": "next",
+          "op": "move_monitor",
+          "target": "Autodesk Fusion"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p019",
+      "wav_sha256": "86663f6c956ab985bf3b32eae490048ba3bcf569ae5bcabea5ea930f88fa8270",
+      "expected_plan": [
+        {
+          "action": "window",
+          "op": "snap_left",
+          "target": "Google Chrome"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p020",
+      "wav_sha256": "474dee460355ac6f106752c08bf04775fec42b8f27edb4bae263825bcdade6f2",
+      "expected_plan": [
+        {
+          "action": "window",
+          "op": "close",
+          "target": "active"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p021",
+      "wav_sha256": "3df8e5bebd58773d4f9b397f1fcbe540a8b7643e323cce23ac8fa5475921fcfe",
+      "expected_plan": [
+        {
+          "action": "open_url",
+          "url": "https://www.youtube.com"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p022",
+      "wav_sha256": "167f3f8d4a11276d06e960308c56124d7649807c335d0846586ef4c82c0eee35",
+      "expected_plan": [
+        {
+          "action": "open_url",
+          "url": "https://github.com"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p023",
+      "wav_sha256": "d23d2ea566339a12922baedff9f873247001802cf6f783e8a2b9e4ae3e5a1ff5",
+      "expected_plan": [
+        {
+          "action": "tab",
+          "op": "new"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p024",
+      "wav_sha256": "b8bd58bf752e6af802956a246156f88a4697bfb50d9e21d1fc54449137c08ad5",
+      "expected_plan": [
+        {
+          "action": "tab",
+          "op": "close"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p025",
+      "wav_sha256": "3996ef721c543e7ae16ba877103d7e4e3aef1f4d0d51d93f52ac4c5783a2634a",
+      "expected_plan": [
+        {
+          "action": "tab",
+          "op": "next"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p026",
+      "wav_sha256": "ba97abaed8f137fac7f50385f9592ad1719a961ae918c5ed881f4f851c710ca5",
+      "expected_plan": [
+        {
+          "action": "tab",
+          "op": "reopen"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p027",
+      "wav_sha256": "0bd7ce88b43ba9e37b6a9ca8c0eae5c81a3055cffe90270a2c37dec5e4dea8ad",
+      "expected_plan": [
+        {
+          "action": "nav",
+          "op": "back"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p028",
+      "wav_sha256": "041f5dde2a5395535f25ceceb5d7387d9d76fa55b5326ea90c12555e07c89ccd",
+      "expected_plan": [
+        {
+          "action": "nav",
+          "op": "reload"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p029",
+      "wav_sha256": "747402f2f2b0bd2529c745fa6327174957e3f099e3b9dd576de13fb7db49c08d",
+      "expected_plan": [
+        {
+          "action": "web_search",
+          "engine": "google",
+          "query": "lofi hip hop"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p030",
+      "wav_sha256": "42057b98b8bc15a0677cbd601f768c03d34464159d92d7dfbd92703f2cfb380d",
+      "expected_plan": [
+        {
+          "action": "web_search",
+          "engine": "youtube",
+          "query": "flood fill algorithm"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p031",
+      "wav_sha256": "9150e0e4bc61598f3ca9abe5081130f43c52e604698687ca5ed4719c2f6995c3",
+      "expected_plan": [
+        {
+          "action": "type_text",
+          "submit": true,
+          "text": "hello world"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p032",
+      "wav_sha256": "603119916365c8fccf45dd6ae621f91f1f5b9964b155daaf8703580614c7d31c",
+      "expected_plan": [
+        {
+          "action": "type_text",
+          "submit": false,
+          "text": "dear professor"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p033",
+      "wav_sha256": "ce45e3b3010f47cd610803f8e31a6cc81e74ac4f3eb6224a704fc3d4bdd16e0c",
+      "expected_plan": [
+        {
+          "action": "press",
+          "keys": "ctrl+shift+t"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p034",
+      "wav_sha256": "d69a34c29da4fea6fbc08c9514357cb752a7a6d503db5aaeff2f5fbbbaf7e5a8",
+      "expected_plan": [
+        {
+          "action": "press",
+          "keys": "esc"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p035",
+      "wav_sha256": "a7342359a7397cd2f9e27b49efa7d44aa7261dff04fbe740327c3a600aab1e3d",
+      "expected_plan": [
+        {
+          "action": "scroll",
+          "amount": "large",
+          "dir": "down"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p036",
+      "wav_sha256": "f2c66970c145c86c8d3895e77c5556bf3d8a10409e99be961c2c08b34ad196d1",
+      "expected_plan": [
+        {
+          "action": "scroll",
+          "dir": "top"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p037",
+      "wav_sha256": "322fdcca2eee06fafa2378138de457c82ca4180aac693eed62043dcfc2b0ae1a",
+      "expected_plan": [
+        {
+          "action": "volume",
+          "op": "up"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p038",
+      "wav_sha256": "222e3021ac83e037cdc3f603afbc57c86d4fec58403c9ebf96006f61aa7bdcb4",
+      "expected_plan": [
+        {
+          "action": "media",
+          "op": "play_pause"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p039",
+      "wav_sha256": "10a25c048215b84213b2382d87ddefb72c65934d3d3eaf058c46aa40b15c40e1",
+      "expected_plan": [
+        {
+          "action": "mode",
+          "op": "dictation_on"
+        }
+      ]
+    },
+    {
+      "id": "20261010T165301Z-check-0ffa4a3f/p040",
+      "wav_sha256": "b9f0bf339b876f785dbab15388c39c2d9d3b0fa5144a0ee79e1080dadb350fde",
+      "expected_plan": [
+        {
+          "action": "mode",
+          "op": "sleep"
+        }
+      ]
+    }
+  ],
+  "required_exact_plan_accuracy": 0.9,
+  "accuracy_gate_unchanged": true,
+  "any_candidate_passes_accuracy_gate": false,
+  "failed_engine_recording_plans": 29,
+  "unique_failed_recording_ids": [
+    "20261010T165301Z-check-0ffa4a3f/p002",
+    "20261010T165301Z-check-0ffa4a3f/p010",
+    "20261010T165301Z-check-0ffa4a3f/p015",
+    "20261010T165301Z-check-0ffa4a3f/p025",
+    "20261010T165301Z-check-0ffa4a3f/p026",
+    "20261010T165301Z-check-0ffa4a3f/p029",
+    "20261010T165301Z-check-0ffa4a3f/p030",
+    "20261010T165301Z-check-0ffa4a3f/p031",
+    "20261010T165301Z-check-0ffa4a3f/p032",
+    "20261010T165301Z-check-0ffa4a3f/p033",
+    "20261010T165301Z-check-0ffa4a3f/p034",
+    "20261010T165301Z-check-0ffa4a3f/p038",
+    "20261010T165301Z-check-0ffa4a3f/p039"
+  ],
+  "exclusive_failure_categories_across_engine_recording_pairs": {
+    "command_words": 15,
+    "payload_formatting": 8,
+    "search_routing_and_payload": 3,
+    "wrong_valid_shortcut": 2,
+    "app_name": 1
+  },
+  "literal_payload_formatting_failures": 8,
+  "parser_command_matching_formatting_only_failures": 0,
+  "null_plan_failures": 16,
+  "valid_wrong_plan_failures": 13,
+  "strict_gate_interpretation": "All listed literal payload differences are genuine failures of the unchanged exact action-list comparison. They are separated from command/target/route/key differences and do not alone establish a lexical or acoustic recognition error. No punctuation/case normalization, adjusted scores or expected-plan changes are applied.",
+  "causal_limit": "Descriptions compare saved prompt text, recognized text and plans. They do not establish what was acoustically spoken, an accent/noise cause, clipping, hint contamination or model-internal cause. No audio was listened to or decoded during consolidation.",
+  "latency_interpretation": "All three measured p95 values exceed the 300 ms performance goal. The Stage 3 text permits reporting measured latency and its limits instead of treating 300 ms as a mandatory hard gate. Times here are estimated last-speech-to-final from paced replay and common Silero speech-end estimates, not manually annotated/live end-to-end session timings.",
+  "alias_review": {
+    "proposed": [
+      {
+        "phrase": "claw",
+        "target": "Claude",
+        "added": false,
+        "requires_user_approval": true
+      }
+    ],
+    "review_from_completed_turbo_analysis": {
+      "phrase": "claw",
+      "target": "Claude",
+      "installed_app_collisions": [],
+      "whole_word_installed_app_collisions": [],
+      "existing_alias_collisions": {},
+      "repairs_complete_plan_ids": [
+        "20261010T165301Z-check-0ffa4a3f/p010"
+      ],
+      "regresses_complete_plan_ids": [],
+      "exact_plans_if_added": 29,
+      "net_gain": 1,
+      "accuracy_if_added": 0.725,
+      "proposed": true,
+      "added": false,
+      "requires_user_approval": true,
+      "independent_recordings_supporting_phrase": 1,
+      "qualification": "Supported by one unique recording; other engines decoding that same WAV are not independent recording evidence."
+    },
+    "gain_by_backend": {
+      "qwen": 0,
+      "whisper-large": 0,
+      "whisper-turbo": 1
+    },
+    "turbo_exact_plans_if_approved": 29,
+    "turbo_accuracy_if_approved": 0.725,
+    "still_fails_90_percent": true,
+    "reason_no_large_gain": "Large returns Clause Claw; aliasing Claw does not repair the unsupported command verb Clause.",
+    "reason_no_qwen_gain": "Qwen correctly names Claude but returns Get. Open Claude.; target aliases cannot remove the leading Get.",
+    "independent_supporting_recordings": 1,
+    "multiple_engines_same_wav_not_independent_support": true,
+    "collision_result_scope": "Individual Turbo analysis found no installed-name, whole-word installed-name or existing-alias collisions and no regressions among these 40 parsed transcripts. This is a scoped review, not a guarantee for future commands."
+  },
+  "changes_made": {
+    "config": false,
+    "aliases": false,
+    "grammar": false,
+    "thresholds": false,
+    "expected_plans": false,
+    "source_reports": false
+  },
+  "operations": {
+    "inference": false,
+    "model_imports": false,
+    "tests": false,
+    "live_audio": false,
+    "desktop_actions": false,
+    "new_counterfactual_parser_runs": false
+  },
+  "engines": [
+    {
+      "backend": "qwen",
+      "label": "Qwen3-ASR 1.7B",
+      "device": "cuda",
+      "source": "C:\\dev\\voicebar\\docs\\evidence\\stage3-candidates-qwen-cuda-realtime.json",
+      "source_sha256": "ae562643396f8efb6db2b253db349bcfa15068b8029881c1004c849744c39224",
+      "fingerprint": "cd776c7af3b02d1a168a32b99d2cdd9d5e978d54c1c5a167a4b4f2ab443e8308",
+      "individual_analysis_source": "%USERPROFILE%\\Documents\\ChatGPT\\voicbR\\work\\qwen-cuda-failure-analysis.json",
+      "individual_analysis_sha256": "906ac8a5c97d674d423533c688b9bb25c3ee54b9da367ad77750b4762090c65d",
+      "identity": {
+        "backend": "qwen",
+        "device": "cuda",
+        "subset": "mine",
+        "timing": "realtime",
+        "runtime_packages": {
+          "moonshine-voice": "0.1.5",
+          "onnx-asr": "0.12.0",
+          "onnxruntime": "1.31.0",
+          "onnxruntime-gpu": null,
+          "numpy": "2.5.3",
+          "torch": "2.9.1+cu128",
+          "transformers": "5.19.0",
+          "huggingface-hub": "1.33.0",
+          "tokenizers": "0.23.3",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.8.2"
+        },
+        "selected_sessions": [
+          "20261010T165301Z-check-0ffa4a3f"
+        ],
+        "models_manifest_sha256": "734f2fe4c67d082393bf8d06ec98f5f63c558b379ce47ce9497d81f55bc60271",
+        "implementation_sha256": {
+          "voicebar\\stt\\__init__.py": "26158d04d0aaa253fca6e0067fe817764fd3517e338ef4d5b9530c66b40d453c",
+          "voicebar\\stt\\base.py": "9b13d29bb71401a3b90ffe832faed60548c5d5550971f9c102197be6353531ec",
+          "voicebar\\stt\\benchmark.py": "210d5357162853b57d93a3d7f724c5706e4950798bbe3e77b33abd29612e2714",
+          "voicebar\\stt\\models.py": "16375542c0d17c51a245472c949f0ff0b2080f5dc09cd4d13e3a8a257dbc7265",
+          "voicebar\\stt\\parakeet.py": "06e284a939d60d5975a3676ef48006daf4bebca5eac12ca8252ec5691028c07a",
+          "voicebar\\stt\\qwen.py": "e6a09e63b8f9b1a08132c63d729bb19caaedd3d5f575f797ad218a0816fe8cdf",
+          "voicebar\\parser.py": "6af4b25112a2af7322b02c57518be9cc597b4d3e747eedc9d65b22f6bd13d5ae",
+          "voicebar\\schema.py": "9481c279b7bcefb45e89239287ad28610b00a6893c5c5c4659449dac1e94fd44"
+        },
+        "reference": {
+          "frame_samples": 512,
+          "onset": 0.5,
+          "continuation": 0.35,
+          "reset_after_silence_samples": 4800
+        }
+      },
+      "summary_unchanged": {
+        "items": 40,
+        "successful_results": 40,
+        "errors": 0,
+        "exact_plans": 33,
+        "exact_plan_accuracy": 0.825,
+        "null_plans": 3,
+        "app_errors": {
+          "unresolved_with_app_target": 1
+        },
+        "last_speech_to_final_ms": {
+          "count": 40,
+          "p50": 2043.9765000483021,
+          "p95": 4565.513500128873
+        },
+        "release_to_final_ms": {
+          "count": 40,
+          "p50": 1973.6942000454292,
+          "p95": 4423.513500136323
+        },
+        "unpaced_decode_ms": {
+          "count": 0,
+          "p50": null,
+          "p95": null
+        },
+        "early_finals_before_estimated_speech_end": 0,
+        "missing_speech_end_or_final": 0,
+        "timing_modes": {
+          "realtime-replay": 40
+        }
+      },
+      "runtime_details_first_row": {
+        "requested_device": "cuda",
+        "parameter_devices": [
+          "cuda:0"
+        ],
+        "parameter_dtypes": [
+          "torch.bfloat16"
+        ],
+        "attention_implementation": "sdpa",
+        "generation_batch_size": 1,
+        "torch_cpu_threads": 16,
+        "last_input_devices": {
+          "input_ids": "cuda:0",
+          "attention_mask": "cuda:0",
+          "input_features": "cuda:0",
+          "input_features_mask": "cuda:0"
+        },
+        "last_output_device": "cuda:0",
+        "last_generated_tokens": 5,
+        "last_torch_cpu_threads": 16
+      },
+      "source_limitations": [
+        "Speech end uses common Silero CPU estimates with 32 ms frame quantization, not manual annotations.",
+        "Negative latency is retained and flagged; premature finalization is not counted as fast correct endpointing.",
+        "Paced replay_elapsed_ms includes file duration; unpaced decode_ms is a separate measurement.",
+        "First inference after each load is included and identified; cold model load is recorded separately."
+      ],
+      "failure_count": 7,
+      "exclusive_failure_categories": {
+        "command_words": 3,
+        "payload_formatting": 3,
+        "search_routing_and_payload": 1
+      },
+      "exact_plan_accuracy_gate": {
+        "required": 0.9,
+        "meets": false,
+        "original_score_unchanged": true
+      },
+      "latency_performance_goal": {
+        "p95_goal_ms": 300,
+        "meets": false,
+        "measured_p95_ms": 4565.513500128873,
+        "spec_allows_reporting_measured_number_and_limits": true
+      },
+      "alias_only_complete_plan_gain_if_approved": 0,
+      "failures": [
+        {
+          "backend": "qwen",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p002",
+          "prompt_id": "p002",
+          "wav_sha256": "b23ba0963631a7cd8437d0f8e40cc25ff537d9a372f578fdbefbdacc429bfbab",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p002",
+            "source_index": 5,
+            "source_text": "open cloud",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "open Claude",
+          "recognized_text": "Get. Open Claude.",
+          "expected_plan": [
+            {
+              "action": "open_app",
+              "app": "Claude"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": {
+            "kind": "unresolved_with_app_target",
+            "expected": [
+              "Claude"
+            ],
+            "actual": []
+          },
+          "category": "command_words",
+          "individual_analysis_category": "spurious_prefix",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The transcript has leading 'Get.' before correctly named Claude; the entire command is rejected.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "open_app",
+                  "app": "Claude"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 1823.7457999493927
+        },
+        {
+          "backend": "qwen",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p015",
+          "prompt_id": "p015",
+          "wav_sha256": "0b357285a0eba4e783eba89133cf1e279b522c1a9782692bd7372d6e5593b8d7",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p015",
+            "source_index": 84,
+            "source_text": "open notepad and type meeting at 3 pm, bring the laptop",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "open Notepad and type meeting at 3 pm, bring the laptop",
+          "recognized_text": "Open Notepad. Type meeting at 3 p.m. Bring the laptop.",
+          "expected_plan": [
+            {
+              "action": "open_app",
+              "app": "Notepad"
+            },
+            {
+              "action": "type_text",
+              "submit": false,
+              "text": "meeting at 3 pm, bring the laptop"
+            }
+          ],
+          "actual_plan": [
+            {
+              "action": "open_app",
+              "app": "Notepad"
+            },
+            {
+              "action": "type_text",
+              "text": "meeting at 3 p.m. Bring the laptop",
+              "submit": false
+            }
+          ],
+          "exact_plan": false,
+          "null_plan": false,
+          "benchmark_app_error_label": null,
+          "category": "payload_formatting",
+          "individual_analysis_category": "payload_formatting",
+          "literal_payload_formatting_only": true,
+          "parser_command_matching_formatting_only": false,
+          "description": "Only the typed payload differs: '3 pm, bring' versus '3 p.m. Bring'. App, action sequence and submit flag are correct.",
+          "field_differences": [
+            {
+              "path": "plan[1].text",
+              "expected": "meeting at 3 pm, bring the laptop",
+              "actual": "meeting at 3 p.m. Bring the laptop"
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 4565.513500128873
+        },
+        {
+          "backend": "qwen",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p029",
+          "prompt_id": "p029",
+          "wav_sha256": "747402f2f2b0bd2529c745fa6327174957e3f099e3b9dd576de13fb7db49c08d",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p029",
+            "source_index": 71,
+            "source_text": "search for lofi hip hop",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "search for lofi hip hop",
+          "recognized_text": "Search for lo-fi hip hop.",
+          "expected_plan": [
+            {
+              "action": "web_search",
+              "engine": "google",
+              "query": "lofi hip hop"
+            }
+          ],
+          "actual_plan": [
+            {
+              "action": "web_search",
+              "engine": "google",
+              "query": "lo-fi hip hop"
+            }
+          ],
+          "exact_plan": false,
+          "null_plan": false,
+          "benchmark_app_error_label": null,
+          "category": "payload_formatting",
+          "individual_analysis_category": "payload_formatting",
+          "literal_payload_formatting_only": true,
+          "parser_command_matching_formatting_only": false,
+          "description": "Only the literal Google query differs: 'lofi' versus 'lo-fi'.",
+          "field_differences": [
+            {
+              "path": "plan[0].query",
+              "expected": "lofi hip hop",
+              "actual": "lo-fi hip hop"
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 2147.6089998614043
+        },
+        {
+          "backend": "qwen",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p030",
+          "prompt_id": "p030",
+          "wav_sha256": "42057b98b8bc15a0677cbd601f768c03d34464159d92d7dfbd92703f2cfb380d",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p030",
+            "source_index": 76,
+            "source_text": "search youtube for flood fill algorithm",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "search youtube for flood fill algorithm",
+          "recognized_text": "Search for YouTube or flood fill algorithm.",
+          "expected_plan": [
+            {
+              "action": "web_search",
+              "engine": "youtube",
+              "query": "flood fill algorithm"
+            }
+          ],
+          "actual_plan": [
+            {
+              "action": "web_search",
+              "engine": "google",
+              "query": "YouTube or flood fill algorithm"
+            }
+          ],
+          "exact_plan": false,
+          "null_plan": false,
+          "benchmark_app_error_label": null,
+          "category": "search_routing_and_payload",
+          "individual_analysis_category": "search_routing_and_payload",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The recognized phrase selects Google rather than YouTube; the literal query also includes 'YouTube or'.",
+          "field_differences": [
+            {
+              "path": "plan[0].engine",
+              "expected": "youtube",
+              "actual": "google"
+            },
+            {
+              "path": "plan[0].query",
+              "expected": "flood fill algorithm",
+              "actual": "YouTube or flood fill algorithm"
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 1831.9022000068799
+        },
+        {
+          "backend": "qwen",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p031",
+          "prompt_id": "p031",
+          "wav_sha256": "9150e0e4bc61598f3ca9abe5081130f43c52e604698687ca5ed4719c2f6995c3",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p031",
+            "source_index": 81,
+            "source_text": "type hello world and press enter",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "type hello world and press enter",
+          "recognized_text": "Type Hello World and press Enter.",
+          "expected_plan": [
+            {
+              "action": "type_text",
+              "submit": true,
+              "text": "hello world"
+            }
+          ],
+          "actual_plan": [
+            {
+              "action": "type_text",
+              "text": "Hello World",
+              "submit": true
+            }
+          ],
+          "exact_plan": false,
+          "null_plan": false,
+          "benchmark_app_error_label": null,
+          "category": "payload_formatting",
+          "individual_analysis_category": "payload_formatting",
+          "literal_payload_formatting_only": true,
+          "parser_command_matching_formatting_only": false,
+          "description": "Only typed payload capitalization differs: 'hello world' versus 'Hello World'. The submit flag is correct.",
+          "field_differences": [
+            {
+              "path": "plan[0].text",
+              "expected": "hello world",
+              "actual": "Hello World"
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 2873.266800073907
+        },
+        {
+          "backend": "qwen",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p032",
+          "prompt_id": "p032",
+          "wav_sha256": "603119916365c8fccf45dd6ae621f91f1f5b9964b155daaf8703580614c7d31c",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p032",
+            "source_index": 86,
+            "source_text": "write dear professor",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "write dear professor",
+          "recognized_text": "Right, dear professor.",
+          "expected_plan": [
+            {
+              "action": "type_text",
+              "submit": false,
+              "text": "dear professor"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": null,
+          "category": "command_words",
+          "individual_analysis_category": "command_verb",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The transcript begins with 'Right' rather than the write command, so no plan is produced.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "type_text",
+                  "submit": false,
+                  "text": "dear professor"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 1869.0863000229
+        },
+        {
+          "backend": "qwen",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p038",
+          "prompt_id": "p038",
+          "wav_sha256": "222e3021ac83e037cdc3f603afbc57c86d4fec58403c9ebf96006f61aa7bdcb4",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p038",
+            "source_index": 109,
+            "source_text": "pause the music",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "pause the music",
+          "recognized_text": "Boss the music.",
+          "expected_plan": [
+            {
+              "action": "media",
+              "op": "play_pause"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": null,
+          "category": "command_words",
+          "individual_analysis_category": "command_verb",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The transcript contains 'Boss' rather than pause, so no media plan is produced.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "media",
+                  "op": "play_pause"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 1912.6845999853685
+        }
+      ]
+    },
+    {
+      "backend": "whisper-large",
+      "label": "Whisper large-v3",
+      "device": "cuda",
+      "source": "C:\\dev\\voicebar\\docs\\evidence\\stage3-candidates-whisper-large-cuda-realtime.json",
+      "source_sha256": "5e8aa2b3ff0cd758d269a7e2aefc486b5dd04e3ccf1720026bb8155efdaa190f",
+      "fingerprint": "6ea6839fbf813147d52e02c2ec47ebad9096977bb6ae7cf7b933349f1ab4ca8f",
+      "individual_analysis_source": "%USERPROFILE%\\Documents\\ChatGPT\\voicbR\\work\\whisper-large-failure-analysis.json",
+      "individual_analysis_sha256": "355885b969087e469bec8ef202733fa2bb692d6fe5ae488ca98054f7939e76bf",
+      "identity": {
+        "backend": "whisper-large",
+        "device": "cuda",
+        "subset": "mine",
+        "timing": "realtime",
+        "runtime_packages": {
+          "moonshine-voice": "0.1.5",
+          "onnx-asr": "0.12.0",
+          "onnxruntime": "1.31.0",
+          "onnxruntime-gpu": null,
+          "numpy": "2.5.3",
+          "torch": "2.9.1+cu128",
+          "transformers": "5.19.0",
+          "huggingface-hub": "1.33.0",
+          "tokenizers": "0.23.3",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.8.2"
+        },
+        "selected_sessions": [
+          "20261010T165301Z-check-0ffa4a3f"
+        ],
+        "models_manifest_sha256": "734f2fe4c67d082393bf8d06ec98f5f63c558b379ce47ce9497d81f55bc60271",
+        "implementation_sha256": {
+          "voicebar\\stt\\__init__.py": "26158d04d0aaa253fca6e0067fe817764fd3517e338ef4d5b9530c66b40d453c",
+          "voicebar\\stt\\base.py": "9b13d29bb71401a3b90ffe832faed60548c5d5550971f9c102197be6353531ec",
+          "voicebar\\stt\\benchmark.py": "210d5357162853b57d93a3d7f724c5706e4950798bbe3e77b33abd29612e2714",
+          "voicebar\\stt\\models.py": "16375542c0d17c51a245472c949f0ff0b2080f5dc09cd4d13e3a8a257dbc7265",
+          "voicebar\\stt\\parakeet.py": "06e284a939d60d5975a3676ef48006daf4bebca5eac12ca8252ec5691028c07a",
+          "voicebar\\stt\\whisper.py": "df004d575ed666c2b4aefd097d74c7dbb358d38cb5a533248f428468a51ba8ad",
+          "voicebar\\parser.py": "6af4b25112a2af7322b02c57518be9cc597b4d3e747eedc9d65b22f6bd13d5ae",
+          "voicebar\\schema.py": "9481c279b7bcefb45e89239287ad28610b00a6893c5c5c4659449dac1e94fd44"
+        },
+        "reference": {
+          "frame_samples": 512,
+          "onset": 0.5,
+          "continuation": 0.35,
+          "reset_after_silence_samples": 4800
+        }
+      },
+      "summary_unchanged": {
+        "items": 40,
+        "successful_results": 40,
+        "errors": 0,
+        "exact_plans": 30,
+        "exact_plan_accuracy": 0.75,
+        "null_plans": 6,
+        "app_errors": {
+          "unresolved_with_app_target": 2
+        },
+        "last_speech_to_final_ms": {
+          "count": 40,
+          "p50": 1218.529999954626,
+          "p95": 2128.452300094068
+        },
+        "release_to_final_ms": {
+          "count": 40,
+          "p50": 1139.2833000281826,
+          "p95": 1932.4523000977933
+        },
+        "unpaced_decode_ms": {
+          "count": 0,
+          "p50": null,
+          "p95": null
+        },
+        "early_finals_before_estimated_speech_end": 0,
+        "missing_speech_end_or_final": 0,
+        "timing_modes": {
+          "realtime-replay": 40
+        }
+      },
+      "runtime_details_first_row": {
+        "requested_device": "cuda",
+        "actual_device": "cuda",
+        "requested_compute_type": "float16",
+        "actual_compute_type": "float16",
+        "device_index": [
+          0
+        ],
+        "model_is_loaded": true,
+        "language": "en",
+        "task": "transcribe",
+        "temperature": 0.0,
+        "condition_on_previous_text": false,
+        "beam_size": 5,
+        "hotwords_requested": 258,
+        "hotwords_token_limit": 223,
+        "hotwords_order": "aliases, alias targets, sites, remaining catalog terms",
+        "segmentation": "existing Silero thresholds and endpoint; internal Whisper VAD disabled"
+      },
+      "source_limitations": [
+        "Speech end uses common Silero CPU estimates with 32 ms frame quantization, not manual annotations.",
+        "Negative latency is retained and flagged; premature finalization is not counted as fast correct endpointing.",
+        "Paced replay_elapsed_ms includes file duration; unpaced decode_ms is a separate measurement.",
+        "First inference after each load is included and identified; cold model load is recorded separately."
+      ],
+      "failure_count": 10,
+      "exclusive_failure_categories": {
+        "command_words": 6,
+        "payload_formatting": 2,
+        "search_routing_and_payload": 1,
+        "wrong_valid_shortcut": 1
+      },
+      "exact_plan_accuracy_gate": {
+        "required": 0.9,
+        "meets": false,
+        "original_score_unchanged": true
+      },
+      "latency_performance_goal": {
+        "p95_goal_ms": 300,
+        "meets": false,
+        "measured_p95_ms": 2128.452300094068,
+        "spec_allows_reporting_measured_number_and_limits": true
+      },
+      "alias_only_complete_plan_gain_if_approved": 0,
+      "failures": [
+        {
+          "backend": "whisper-large",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p002",
+          "prompt_id": "p002",
+          "wav_sha256": "b23ba0963631a7cd8437d0f8e40cc25ff537d9a372f578fdbefbdacc429bfbab",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p002",
+            "source_index": 5,
+            "source_text": "open cloud",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "open Claude",
+          "recognized_text": "Anaconda PowerShell Prompt Anaconda PowerShell Prompt OpenClaude",
+          "expected_plan": [
+            {
+              "action": "open_app",
+              "app": "Claude"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": {
+            "kind": "unresolved_with_app_target",
+            "expected": [
+              "Claude"
+            ],
+            "actual": []
+          },
+          "category": "command_words",
+          "individual_analysis_category": "command_words",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The transcript contains repeated 'Anaconda PowerShell Prompt' and a merged 'OpenClaude' token. The complete command is rejected; app aliases alone cannot fix the prefix or verb boundary.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "open_app",
+                  "app": "Claude"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 1306.6904000006616
+        },
+        {
+          "backend": "whisper-large",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p010",
+          "prompt_id": "p010",
+          "wav_sha256": "ff771b94fc3e8763f63be933e3980361473c05ee461e5a4bcbc930c6e5b281ff",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p010",
+            "source_index": 17,
+            "source_text": "close claude",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "close Claude",
+          "recognized_text": "Clause Claw",
+          "expected_plan": [
+            {
+              "action": "close_app",
+              "app": "Claude"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": {
+            "kind": "unresolved_with_app_target",
+            "expected": [
+              "Claude"
+            ],
+            "actual": []
+          },
+          "category": "command_words",
+          "individual_analysis_category": "command_words",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The transcript is 'Clause Claw'. Both command verb and app target differ; claw alone cannot repair the unrecognized verb.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "close_app",
+                  "app": "Claude"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 1133.1697999266908
+        },
+        {
+          "backend": "whisper-large",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p015",
+          "prompt_id": "p015",
+          "wav_sha256": "0b357285a0eba4e783eba89133cf1e279b522c1a9782692bd7372d6e5593b8d7",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p015",
+            "source_index": 84,
+            "source_text": "open notepad and type meeting at 3 pm, bring the laptop",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "open Notepad and type meeting at 3 pm, bring the laptop",
+          "recognized_text": "Open Notepad type meeting at 3pm bring the laptop",
+          "expected_plan": [
+            {
+              "action": "open_app",
+              "app": "Notepad"
+            },
+            {
+              "action": "type_text",
+              "submit": false,
+              "text": "meeting at 3 pm, bring the laptop"
+            }
+          ],
+          "actual_plan": [
+            {
+              "action": "open_app",
+              "app": "Notepad"
+            },
+            {
+              "action": "type_text",
+              "text": "meeting at 3pm bring the laptop",
+              "submit": false
+            }
+          ],
+          "exact_plan": false,
+          "null_plan": false,
+          "benchmark_app_error_label": null,
+          "category": "payload_formatting",
+          "individual_analysis_category": "payload_formatting",
+          "literal_payload_formatting_only": true,
+          "parser_command_matching_formatting_only": false,
+          "description": "Only the typed payload differs: '3 pm,' versus '3pm' with no comma. Open/type actions are correct.",
+          "field_differences": [
+            {
+              "path": "plan[1].text",
+              "expected": "meeting at 3 pm, bring the laptop",
+              "actual": "meeting at 3pm bring the laptop"
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 1384.5401001162827
+        },
+        {
+          "backend": "whisper-large",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p026",
+          "prompt_id": "p026",
+          "wav_sha256": "ba97abaed8f137fac7f50385f9592ad1719a961ae918c5ed881f4f851c710ca5",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p026",
+            "source_index": 66,
+            "source_text": "reopen closed tab",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "reopen closed tab",
+          "recognized_text": "Reopen, Close, Tab",
+          "expected_plan": [
+            {
+              "action": "tab",
+              "op": "reopen"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": null,
+          "category": "command_words",
+          "individual_analysis_category": "command_words",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The transcript contains Close instead of closed. Command punctuation/case matching is not the problem; no plan is produced.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "tab",
+                  "op": "reopen"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 1415.8278000541031
+        },
+        {
+          "backend": "whisper-large",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p029",
+          "prompt_id": "p029",
+          "wav_sha256": "747402f2f2b0bd2529c745fa6327174957e3f099e3b9dd576de13fb7db49c08d",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p029",
+            "source_index": 71,
+            "source_text": "search for lofi hip hop",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "search for lofi hip hop",
+          "recognized_text": "Search for lo-fi hip-hop",
+          "expected_plan": [
+            {
+              "action": "web_search",
+              "engine": "google",
+              "query": "lofi hip hop"
+            }
+          ],
+          "actual_plan": [
+            {
+              "action": "web_search",
+              "engine": "google",
+              "query": "lo-fi hip-hop"
+            }
+          ],
+          "exact_plan": false,
+          "null_plan": false,
+          "benchmark_app_error_label": null,
+          "category": "payload_formatting",
+          "individual_analysis_category": "payload_formatting",
+          "literal_payload_formatting_only": true,
+          "parser_command_matching_formatting_only": false,
+          "description": "Only the literal Google query differs: 'lofi hip hop' versus 'lo-fi hip-hop'.",
+          "field_differences": [
+            {
+              "path": "plan[0].query",
+              "expected": "lofi hip hop",
+              "actual": "lo-fi hip-hop"
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 1808.9824998751283
+        },
+        {
+          "backend": "whisper-large",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p030",
+          "prompt_id": "p030",
+          "wav_sha256": "42057b98b8bc15a0677cbd601f768c03d34464159d92d7dfbd92703f2cfb380d",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p030",
+            "source_index": 76,
+            "source_text": "search youtube for flood fill algorithm",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "search youtube for flood fill algorithm",
+          "recognized_text": "search for youtube or flood flood fill algorithm",
+          "expected_plan": [
+            {
+              "action": "web_search",
+              "engine": "youtube",
+              "query": "flood fill algorithm"
+            }
+          ],
+          "actual_plan": [
+            {
+              "action": "web_search",
+              "engine": "google",
+              "query": "youtube or flood flood fill algorithm"
+            }
+          ],
+          "exact_plan": false,
+          "null_plan": false,
+          "benchmark_app_error_label": null,
+          "category": "search_routing_and_payload",
+          "individual_analysis_category": "search_routing_and_payload",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The recognized phrase selects Google rather than YouTube and the query includes 'youtube or' plus a repeated 'flood'.",
+          "field_differences": [
+            {
+              "path": "plan[0].engine",
+              "expected": "youtube",
+              "actual": "google"
+            },
+            {
+              "path": "plan[0].query",
+              "expected": "flood fill algorithm",
+              "actual": "youtube or flood flood fill algorithm"
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 1068.5917999362573
+        },
+        {
+          "backend": "whisper-large",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p032",
+          "prompt_id": "p032",
+          "wav_sha256": "603119916365c8fccf45dd6ae621f91f1f5b9964b155daaf8703580614c7d31c",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p032",
+            "source_index": 86,
+            "source_text": "write dear professor",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "write dear professor",
+          "recognized_text": "Right, dear professor.",
+          "expected_plan": [
+            {
+              "action": "type_text",
+              "submit": false,
+              "text": "dear professor"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": null,
+          "category": "command_words",
+          "individual_analysis_category": "command_words",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The transcript begins with 'Right' rather than write; no type plan is produced.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "type_text",
+                  "submit": false,
+                  "text": "dear professor"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 752.154599991627
+        },
+        {
+          "backend": "whisper-large",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p033",
+          "prompt_id": "p033",
+          "wav_sha256": "ce45e3b3010f47cd610803f8e31a6cc81e74ac4f3eb6224a704fc3d4bdd16e0c",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p033",
+            "source_index": 92,
+            "source_text": "press control shift t",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "press control shift t",
+          "recognized_text": "Press Ctrl Shift D",
+          "expected_plan": [
+            {
+              "action": "press",
+              "keys": "ctrl+shift+t"
+            }
+          ],
+          "actual_plan": [
+            {
+              "action": "press",
+              "keys": "ctrl+shift+d"
+            }
+          ],
+          "exact_plan": false,
+          "null_plan": false,
+          "benchmark_app_error_label": null,
+          "category": "wrong_valid_shortcut",
+          "individual_analysis_category": "wrong_valid_shortcut",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The valid shortcut is ctrl+shift+d rather than ctrl+shift+t. This would perform a different key action.",
+          "field_differences": [
+            {
+              "path": "plan[0].keys",
+              "expected": "ctrl+shift+t",
+              "actual": "ctrl+shift+d"
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 1261.5669000661
+        },
+        {
+          "backend": "whisper-large",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p034",
+          "prompt_id": "p034",
+          "wav_sha256": "d69a34c29da4fea6fbc08c9514357cb752a7a6d503db5aaeff2f5fbbbaf7e5a8",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p034",
+            "source_index": 88,
+            "source_text": "hit escape",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "hit escape",
+          "recognized_text": "Hit the skip",
+          "expected_plan": [
+            {
+              "action": "press",
+              "keys": "esc"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": null,
+          "category": "command_words",
+          "individual_analysis_category": "command_words",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The transcript contains 'the skip' instead of the supported escape key; no key plan is produced.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "press",
+                  "keys": "esc"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 1236.3354000262916
+        },
+        {
+          "backend": "whisper-large",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p038",
+          "prompt_id": "p038",
+          "wav_sha256": "222e3021ac83e037cdc3f603afbc57c86d4fec58403c9ebf96006f61aa7bdcb4",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p038",
+            "source_index": 109,
+            "source_text": "pause the music",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "pause the music",
+          "recognized_text": "What's the music?",
+          "expected_plan": [
+            {
+              "action": "media",
+              "op": "play_pause"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": null,
+          "category": "command_words",
+          "individual_analysis_category": "command_words",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The transcript is the question 'What's the music?' rather than the pause command; no media plan is produced.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "media",
+                  "op": "play_pause"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 988.702500006184
+        }
+      ]
+    },
+    {
+      "backend": "whisper-turbo",
+      "label": "Whisper large-v3-turbo",
+      "device": "cuda",
+      "source": "C:\\dev\\voicebar\\docs\\evidence\\stage3-candidates-whisper-turbo-cuda-realtime.json",
+      "source_sha256": "ce6b3cc974047b3822e976b333682a60668c98675b7a24c3d9b80e13353b8ad8",
+      "fingerprint": "8b72f43acecb89bf77679fa1c3b152c8b8264d8521ea3aa98423d0b4b6bbad8c",
+      "individual_analysis_source": "%USERPROFILE%\\Documents\\ChatGPT\\voicbR\\work\\whisper-turbo-failure-analysis.json",
+      "individual_analysis_sha256": "a3b222cd6546680d2d9b7e1949e1e6358a0819412a6fb4846b255a5bb7ab3041",
+      "identity": {
+        "backend": "whisper-turbo",
+        "device": "cuda",
+        "subset": "mine",
+        "timing": "realtime",
+        "runtime_packages": {
+          "moonshine-voice": "0.1.5",
+          "onnx-asr": "0.12.0",
+          "onnxruntime": "1.31.0",
+          "onnxruntime-gpu": null,
+          "numpy": "2.5.3",
+          "torch": "2.9.1+cu128",
+          "transformers": "5.19.0",
+          "huggingface-hub": "1.33.0",
+          "tokenizers": "0.23.3",
+          "faster-whisper": "1.2.1",
+          "ctranslate2": "4.8.2"
+        },
+        "selected_sessions": [
+          "20261010T165301Z-check-0ffa4a3f"
+        ],
+        "models_manifest_sha256": "734f2fe4c67d082393bf8d06ec98f5f63c558b379ce47ce9497d81f55bc60271",
+        "implementation_sha256": {
+          "voicebar\\stt\\__init__.py": "26158d04d0aaa253fca6e0067fe817764fd3517e338ef4d5b9530c66b40d453c",
+          "voicebar\\stt\\base.py": "9b13d29bb71401a3b90ffe832faed60548c5d5550971f9c102197be6353531ec",
+          "voicebar\\stt\\benchmark.py": "210d5357162853b57d93a3d7f724c5706e4950798bbe3e77b33abd29612e2714",
+          "voicebar\\stt\\models.py": "16375542c0d17c51a245472c949f0ff0b2080f5dc09cd4d13e3a8a257dbc7265",
+          "voicebar\\stt\\parakeet.py": "06e284a939d60d5975a3676ef48006daf4bebca5eac12ca8252ec5691028c07a",
+          "voicebar\\stt\\whisper.py": "df004d575ed666c2b4aefd097d74c7dbb358d38cb5a533248f428468a51ba8ad",
+          "voicebar\\parser.py": "6af4b25112a2af7322b02c57518be9cc597b4d3e747eedc9d65b22f6bd13d5ae",
+          "voicebar\\schema.py": "9481c279b7bcefb45e89239287ad28610b00a6893c5c5c4659449dac1e94fd44"
+        },
+        "reference": {
+          "frame_samples": 512,
+          "onset": 0.5,
+          "continuation": 0.35,
+          "reset_after_silence_samples": 4800
+        }
+      },
+      "summary_unchanged": {
+        "items": 40,
+        "successful_results": 40,
+        "errors": 0,
+        "exact_plans": 28,
+        "exact_plan_accuracy": 0.7,
+        "null_plans": 7,
+        "app_errors": {
+          "unresolved_with_app_target": 2
+        },
+        "last_speech_to_final_ms": {
+          "count": 40,
+          "p50": 535.4772000573575,
+          "p95": 1032.226699986495
+        },
+        "release_to_final_ms": {
+          "count": 40,
+          "p50": 428.6512000253424,
+          "p95": 1032.226699986495
+        },
+        "unpaced_decode_ms": {
+          "count": 0,
+          "p50": null,
+          "p95": null
+        },
+        "early_finals_before_estimated_speech_end": 0,
+        "missing_speech_end_or_final": 0,
+        "timing_modes": {
+          "realtime-replay": 40
+        }
+      },
+      "runtime_details_first_row": {
+        "requested_device": "cuda",
+        "actual_device": "cuda",
+        "requested_compute_type": "float16",
+        "actual_compute_type": "float16",
+        "device_index": [
+          0
+        ],
+        "model_is_loaded": true,
+        "language": "en",
+        "task": "transcribe",
+        "temperature": 0.0,
+        "condition_on_previous_text": false,
+        "beam_size": 5,
+        "hotwords_requested": 258,
+        "hotwords_token_limit": 223,
+        "hotwords_order": "aliases, alias targets, sites, remaining catalog terms",
+        "segmentation": "existing Silero thresholds and endpoint; internal Whisper VAD disabled"
+      },
+      "source_limitations": [
+        "Speech end uses common Silero CPU estimates with 32 ms frame quantization, not manual annotations.",
+        "Negative latency is retained and flagged; premature finalization is not counted as fast correct endpointing.",
+        "Paced replay_elapsed_ms includes file duration; unpaced decode_ms is a separate measurement.",
+        "First inference after each load is included and identified; cold model load is recorded separately."
+      ],
+      "failure_count": 12,
+      "exclusive_failure_categories": {
+        "command_words": 6,
+        "app_name": 1,
+        "payload_formatting": 3,
+        "search_routing_and_payload": 1,
+        "wrong_valid_shortcut": 1
+      },
+      "exact_plan_accuracy_gate": {
+        "required": 0.9,
+        "meets": false,
+        "original_score_unchanged": true
+      },
+      "latency_performance_goal": {
+        "p95_goal_ms": 300,
+        "meets": false,
+        "measured_p95_ms": 1032.226699986495,
+        "spec_allows_reporting_measured_number_and_limits": true
+      },
+      "alias_only_complete_plan_gain_if_approved": 1,
+      "failures": [
+        {
+          "backend": "whisper-turbo",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p002",
+          "prompt_id": "p002",
+          "wav_sha256": "b23ba0963631a7cd8437d0f8e40cc25ff537d9a372f578fdbefbdacc429bfbab",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p002",
+            "source_index": 5,
+            "source_text": "open cloud",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "open Claude",
+          "recognized_text": "Thank you. Open Claude",
+          "expected_plan": [
+            {
+              "action": "open_app",
+              "app": "Claude"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": {
+            "kind": "unresolved_with_app_target",
+            "expected": [
+              "Claude"
+            ],
+            "actual": []
+          },
+          "category": "command_words",
+          "individual_analysis_category": "command_words",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The transcript has leading 'Thank you.' before correctly named Claude; the entire command is rejected.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "open_app",
+                  "app": "Claude"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 640.8934999490157
+        },
+        {
+          "backend": "whisper-turbo",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p010",
+          "prompt_id": "p010",
+          "wav_sha256": "ff771b94fc3e8763f63be933e3980361473c05ee461e5a4bcbc930c6e5b281ff",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p010",
+            "source_index": 17,
+            "source_text": "close claude",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "close Claude",
+          "recognized_text": "Close Claw",
+          "expected_plan": [
+            {
+              "action": "close_app",
+              "app": "Claude"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": {
+            "kind": "unresolved_with_app_target",
+            "expected": [
+              "Claude"
+            ],
+            "actual": []
+          },
+          "category": "app_name",
+          "individual_analysis_category": "app_name",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "Close is a valid command, but the target is Claw instead of Claude. The reviewed exact app alias claw -> Claude repairs this one complete plan.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "close_app",
+                  "app": "Claude"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": true,
+          "alias_candidate": {
+            "phrase": "claw",
+            "target": "Claude",
+            "added": false,
+            "requires_user_approval": true
+          },
+          "last_speech_to_final_ms": 716.0490999231115
+        },
+        {
+          "backend": "whisper-turbo",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p015",
+          "prompt_id": "p015",
+          "wav_sha256": "0b357285a0eba4e783eba89133cf1e279b522c1a9782692bd7372d6e5593b8d7",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p015",
+            "source_index": 84,
+            "source_text": "open notepad and type meeting at 3 pm, bring the laptop",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "open Notepad and type meeting at 3 pm, bring the laptop",
+          "recognized_text": "Open notepad, Type meeting at 3pm, bring the laptop",
+          "expected_plan": [
+            {
+              "action": "open_app",
+              "app": "Notepad"
+            },
+            {
+              "action": "type_text",
+              "submit": false,
+              "text": "meeting at 3 pm, bring the laptop"
+            }
+          ],
+          "actual_plan": [
+            {
+              "action": "open_app",
+              "app": "Notepad"
+            },
+            {
+              "action": "type_text",
+              "text": "meeting at 3pm, bring the laptop",
+              "submit": false
+            }
+          ],
+          "exact_plan": false,
+          "null_plan": false,
+          "benchmark_app_error_label": null,
+          "category": "payload_formatting",
+          "individual_analysis_category": "payload_formatting",
+          "literal_payload_formatting_only": true,
+          "parser_command_matching_formatting_only": false,
+          "description": "Only typed payload spacing differs: '3 pm' versus '3pm'. Open/type actions are correct.",
+          "field_differences": [
+            {
+              "path": "plan[1].text",
+              "expected": "meeting at 3 pm, bring the laptop",
+              "actual": "meeting at 3pm, bring the laptop"
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 573.8242000807077
+        },
+        {
+          "backend": "whisper-turbo",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p025",
+          "prompt_id": "p025",
+          "wav_sha256": "3996ef721c543e7ae16ba877103d7e4e3aef1f4d0d51d93f52ac4c5783a2634a",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p025",
+            "source_index": 64,
+            "source_text": "next tab",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "next tab",
+          "recognized_text": "Neck Stab",
+          "expected_plan": [
+            {
+              "action": "tab",
+              "op": "next"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": null,
+          "category": "command_words",
+          "individual_analysis_category": "command_words",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The transcript is 'Neck Stab' rather than next tab; no tab plan is produced.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "tab",
+                  "op": "next"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 531.5749000292271
+        },
+        {
+          "backend": "whisper-turbo",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p026",
+          "prompt_id": "p026",
+          "wav_sha256": "ba97abaed8f137fac7f50385f9592ad1719a961ae918c5ed881f4f851c710ca5",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p026",
+            "source_index": 66,
+            "source_text": "reopen closed tab",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "reopen closed tab",
+          "recognized_text": "Reopen, Close, Tab",
+          "expected_plan": [
+            {
+              "action": "tab",
+              "op": "reopen"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": null,
+          "category": "command_words",
+          "individual_analysis_category": "command_words",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The transcript contains Close instead of closed. Command punctuation/case matching is not the problem; no plan is produced.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "tab",
+                  "op": "reopen"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 401.7135000322014
+        },
+        {
+          "backend": "whisper-turbo",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p029",
+          "prompt_id": "p029",
+          "wav_sha256": "747402f2f2b0bd2529c745fa6327174957e3f099e3b9dd576de13fb7db49c08d",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p029",
+            "source_index": 71,
+            "source_text": "search for lofi hip hop",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "search for lofi hip hop",
+          "recognized_text": "Search for lo-fi hip-hop",
+          "expected_plan": [
+            {
+              "action": "web_search",
+              "engine": "google",
+              "query": "lofi hip hop"
+            }
+          ],
+          "actual_plan": [
+            {
+              "action": "web_search",
+              "engine": "google",
+              "query": "lo-fi hip-hop"
+            }
+          ],
+          "exact_plan": false,
+          "null_plan": false,
+          "benchmark_app_error_label": null,
+          "category": "payload_formatting",
+          "individual_analysis_category": "payload_formatting",
+          "literal_payload_formatting_only": true,
+          "parser_command_matching_formatting_only": false,
+          "description": "Only the literal Google query differs: 'lofi hip hop' versus 'lo-fi hip-hop'.",
+          "field_differences": [
+            {
+              "path": "plan[0].query",
+              "expected": "lofi hip hop",
+              "actual": "lo-fi hip-hop"
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 917.3506000079215
+        },
+        {
+          "backend": "whisper-turbo",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p030",
+          "prompt_id": "p030",
+          "wav_sha256": "42057b98b8bc15a0677cbd601f768c03d34464159d92d7dfbd92703f2cfb380d",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p030",
+            "source_index": 76,
+            "source_text": "search youtube for flood fill algorithm",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "search youtube for flood fill algorithm",
+          "recognized_text": "Search for YouTube or flood fill algorithm",
+          "expected_plan": [
+            {
+              "action": "web_search",
+              "engine": "youtube",
+              "query": "flood fill algorithm"
+            }
+          ],
+          "actual_plan": [
+            {
+              "action": "web_search",
+              "engine": "google",
+              "query": "YouTube or flood fill algorithm"
+            }
+          ],
+          "exact_plan": false,
+          "null_plan": false,
+          "benchmark_app_error_label": null,
+          "category": "search_routing_and_payload",
+          "individual_analysis_category": "search_routing_and_payload",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The recognized phrase selects Google rather than YouTube; the literal query also includes 'YouTube or'.",
+          "field_differences": [
+            {
+              "path": "plan[0].engine",
+              "expected": "youtube",
+              "actual": "google"
+            },
+            {
+              "path": "plan[0].query",
+              "expected": "flood fill algorithm",
+              "actual": "YouTube or flood fill algorithm"
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 820.5469000386074
+        },
+        {
+          "backend": "whisper-turbo",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p032",
+          "prompt_id": "p032",
+          "wav_sha256": "603119916365c8fccf45dd6ae621f91f1f5b9964b155daaf8703580614c7d31c",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p032",
+            "source_index": 86,
+            "source_text": "write dear professor",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "write dear professor",
+          "recognized_text": "Write, Dear Professor",
+          "expected_plan": [
+            {
+              "action": "type_text",
+              "submit": false,
+              "text": "dear professor"
+            }
+          ],
+          "actual_plan": [
+            {
+              "action": "type_text",
+              "text": "Dear Professor",
+              "submit": false
+            }
+          ],
+          "exact_plan": false,
+          "null_plan": false,
+          "benchmark_app_error_label": null,
+          "category": "payload_formatting",
+          "individual_analysis_category": "payload_formatting",
+          "literal_payload_formatting_only": true,
+          "parser_command_matching_formatting_only": false,
+          "description": "Only typed payload capitalization differs: 'dear professor' versus 'Dear Professor'. Write is recognized and the action is correct.",
+          "field_differences": [
+            {
+              "path": "plan[0].text",
+              "expected": "dear professor",
+              "actual": "Dear Professor"
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 377.0565999438986
+        },
+        {
+          "backend": "whisper-turbo",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p033",
+          "prompt_id": "p033",
+          "wav_sha256": "ce45e3b3010f47cd610803f8e31a6cc81e74ac4f3eb6224a704fc3d4bdd16e0c",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p033",
+            "source_index": 92,
+            "source_text": "press control shift t",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "press control shift t",
+          "recognized_text": "Press Ctrl Shift D",
+          "expected_plan": [
+            {
+              "action": "press",
+              "keys": "ctrl+shift+t"
+            }
+          ],
+          "actual_plan": [
+            {
+              "action": "press",
+              "keys": "ctrl+shift+d"
+            }
+          ],
+          "exact_plan": false,
+          "null_plan": false,
+          "benchmark_app_error_label": null,
+          "category": "wrong_valid_shortcut",
+          "individual_analysis_category": "wrong_valid_shortcut",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The valid shortcut is ctrl+shift+d rather than ctrl+shift+t. This would perform a different key action.",
+          "field_differences": [
+            {
+              "path": "plan[0].keys",
+              "expected": "ctrl+shift+t",
+              "actual": "ctrl+shift+d"
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 633.5210999241099
+        },
+        {
+          "backend": "whisper-turbo",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p034",
+          "prompt_id": "p034",
+          "wav_sha256": "d69a34c29da4fea6fbc08c9514357cb752a7a6d503db5aaeff2f5fbbbaf7e5a8",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p034",
+            "source_index": 88,
+            "source_text": "hit escape",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "hit escape",
+          "recognized_text": "Hit the skip",
+          "expected_plan": [
+            {
+              "action": "press",
+              "keys": "esc"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": null,
+          "category": "command_words",
+          "individual_analysis_category": "command_words",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The transcript contains 'the skip' instead of the supported escape key; no key plan is produced.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "press",
+                  "keys": "esc"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 612.6055000349879
+        },
+        {
+          "backend": "whisper-turbo",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p038",
+          "prompt_id": "p038",
+          "wav_sha256": "222e3021ac83e037cdc3f603afbc57c86d4fec58403c9ebf96006f61aa7bdcb4",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p038",
+            "source_index": 109,
+            "source_text": "pause the music",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "pause the music",
+          "recognized_text": "What's the music?",
+          "expected_plan": [
+            {
+              "action": "media",
+              "op": "play_pause"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": null,
+          "category": "command_words",
+          "individual_analysis_category": "command_words",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The transcript is the question 'What's the music?' rather than the pause command; no media plan is produced.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "media",
+                  "op": "play_pause"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 397.7392000379041
+        },
+        {
+          "backend": "whisper-turbo",
+          "device": "cuda",
+          "id": "20261010T165301Z-check-0ffa4a3f/p039",
+          "prompt_id": "p039",
+          "wav_sha256": "10a25c048215b84213b2382d87ddefb72c65934d3d3eaf058c46aa40b15c40e1",
+          "source": {
+            "manifest": "C:\\dev\\voicebar\\fixtures\\mine\\20261010T165301Z-check-0ffa4a3f\\manifest.json",
+            "manifest_sha256": "d9e32250f3a0b127ba15c0263b649b36e686eed3c57cabbfc81660fa01e4b0eb",
+            "prompt_id": "p039",
+            "source_index": 114,
+            "source_text": "start dictation",
+            "provenance": {
+              "contract_path": "tests/test_parser_contract.py",
+              "contract_sha256": "ded62ba9134934237bbb2c2e5fe2ee064503aaa7285ac61a9b1a7e43dcd943eb",
+              "prompt_set_sha256": "b71d943d3df27a932135283a2ebe59652d03366daad280d1c2eef181cd098007",
+              "substitutions": {
+                "browser": "Google Chrome",
+                "claude": "Claude",
+                "fusion": "Autodesk Fusion",
+                "word": "Word",
+                "excel": "Excel",
+                "calculator": "Calculator",
+                "notepad": "Notepad",
+                "editor": "Visual Studio Code",
+                "site_one": "youtube",
+                "site_two": "github",
+                "engine": "youtube"
+              },
+              "catalog_sha256": "1081217f1825476ac2c942811ff235f1c48e993115ed6a1de3ac06162d46291b"
+            }
+          },
+          "expected_text": "start dictation",
+          "recognized_text": "Star Dictation",
+          "expected_plan": [
+            {
+              "action": "mode",
+              "op": "dictation_on"
+            }
+          ],
+          "actual_plan": null,
+          "exact_plan": false,
+          "null_plan": true,
+          "benchmark_app_error_label": null,
+          "category": "command_words",
+          "individual_analysis_category": "command_words",
+          "literal_payload_formatting_only": false,
+          "parser_command_matching_formatting_only": false,
+          "description": "The transcript has Star rather than the start command; no dictation mode plan is produced.",
+          "field_differences": [
+            {
+              "path": "plan",
+              "expected": [
+                {
+                  "action": "mode",
+                  "op": "dictation_on"
+                }
+              ],
+              "actual": null
+            }
+          ],
+          "alias_alone_repairs_complete_plan": false,
+          "alias_candidate": null,
+          "last_speech_to_final_ms": 391.33149990811944
+        }
+      ]
+    }
+  ]
+}

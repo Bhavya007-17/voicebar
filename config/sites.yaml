@@ -1,0 +1,14 @@
+# Editable examples from the parser contract; these are not inferred preferences.
+youtube:
+  url: https://www.youtube.com
+  title: YouTube
+google: https://www.google.com
+gmail:
+  url: https://mail.google.com
+  title: Gmail
+github:
+  url: https://github.com
+  title: GitHub
+google notes:
+  url: https://keep.google.com
+  title: Google Keep
